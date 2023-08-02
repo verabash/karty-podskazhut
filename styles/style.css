@@ -51,16 +51,16 @@ figure {
 }
 
 .header__title {
-  font-size: clamp(5rem, 1.5rem + 5.5556vw, 7.5rem);
+  font-size:  clamp(3.75rem, 2.5rem + 5.5556vw, 7.5rem);
   padding-right: 6vi;
   padding-bottom: 28px;
 }
 
 .content__title {
-  font-size: 20px;
-  padding-top: 4.5vw;
+  font-size: 30px;
+  padding-top: 6.3vw;
   /* letter-spacing: 9px; */
-  padding-bottom: 2.75vw;
+  padding-bottom: 2.2vw;
 }
 
 .header {
@@ -68,7 +68,7 @@ figure {
 }
 
 .content__text-block {
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .content__paragraph {
@@ -87,8 +87,9 @@ figure {
   font-style: italic;
   font-weight: 400;
   line-height: 200%;
+  /* padding-top: 27px; */
   width: 75vw;
-  padding-bottom: 1.5em;
+  padding-bottom: 27px;
 }
 
 .content__list {  
@@ -140,8 +141,16 @@ figure {
   position: relative;
   right: -7;
   /* height: 61vw; */
-  padding-top: 2em;
+  padding-top: 6.3vw;
   margin-left: -14vw;
+}
+
+.content__pictusre-caption {
+  height: 60px;
+  font-size: 18px;
+  padding: 20px 0;
+  margin-bottom: 6.3vw;
+  border-bottom: 1px solid var(--text-color);
 }
 
 .content__card {
@@ -261,10 +270,11 @@ outline-offset: 5px;
   justify-content: space-between;
   align-items: center;
   /* gap: 146px; */
-  margin-bottom: 2em;
+  height: 71px;
+  /* margin-bottom: 6.3vw; */
   border-top: 1px solid var(--text-color);
   border-bottom: 1px solid var(--text-color);
-  /* padding: 20px 0px; */
+  padding: 20px 0px;
   /* margin-top: 10px; */
 }
 
