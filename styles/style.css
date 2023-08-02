@@ -59,7 +59,6 @@ figure {
 .content__title {
   font-size: 30px;
   padding-top: 6.3vw;
-  /* letter-spacing: 9px; */
   padding-bottom: 2.2vw;
 }
 
@@ -87,7 +86,6 @@ figure {
   font-style: italic;
   font-weight: 400;
   line-height: 200%;
-  /* padding-top: 27px; */
   width: 75vw;
   padding-bottom: 27px;
 }
@@ -141,7 +139,6 @@ figure {
   width: calc(100dvw + 10vw);
   position: relative;
   right: -7;
-  /* height: 61vw; */
   padding-top: 6.3vw;
   margin-left: -14vw;
 }
@@ -160,16 +157,12 @@ figure {
   align-self: center;
   flex-direction: column;
   justify-content: center;
-  /* padding-top: 7vw; */
   align-items: center;
-  /* height: 65.5vw; */
-  /* margin: 0 3vw; */
   margin-top: 6.3vw;
   border: 1px solid var(--text-color);
 }
 
 .content__card-title {
-  /* position: relative; */
   font-size: 60px;
   z-index: 2;
   min-width: 304px;
@@ -177,7 +170,6 @@ figure {
 
 .colored-text {
   position: relative;
-  /* overflow-wrap: anywhere; */
 }
 
 .colored-text::after {
@@ -206,10 +198,7 @@ figure {
   align-self: flex-end;
   justify-self: end;
   right: -1rem;
-  /* margin-left: 40px; */
-  /* gap: 3px; */
   justify-content: flex-end;
-  /* align-items: center; */
   font-family: inherit;
 }
 
@@ -230,8 +219,6 @@ figure {
 
 .header__theme-button_type_light{
   position: relative;
-  /* gap: 5px; */
-  /* font-weight: bolder; */
   right: -49px;
 }
 
@@ -279,13 +266,10 @@ outline-offset: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* gap: 146px; */
   height: 71px;
-  /* margin-bottom: 6.3vw; */
   border-top: 1px solid var(--text-color);
   border-bottom: 1px solid var(--text-color);
   padding: 20px 0px;
-  /* margin-top: 10px; */
 }
 
 .footer {
