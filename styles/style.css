@@ -160,7 +160,7 @@ figure {
   align-self: center;
   flex-direction: column;
   justify-content: center;
-  padding-top: 7vw;
+  /* padding-top: 7vw; */
   align-items: center;
   /* height: 65.5vw; */
   /* margin: 0 3vw; */
@@ -169,23 +169,26 @@ figure {
 }
 
 .content__card-title {
+  /* position: relative; */
   font-size: 60px;
   z-index: 2;
+  min-width: 304px;
 }
 
 .colored-text {
   position: relative;
+  /* overflow-wrap: anywhere; */
 }
 
 .colored-text::after {
   content: " ";
   position: absolute;
   width: 3.5em;
-  height: 20px;
+  height: 10px;
   z-index: -1;
   background-color: var(--accent-color);
   right: 0.1em;
-  top: 4vh;
+  top: 5vh;
 }
 
 .theme_dark .colored-text::after {
