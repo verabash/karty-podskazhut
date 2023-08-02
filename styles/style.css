@@ -47,7 +47,7 @@ figure {
 
 .content-section {
   padding-left: 5vi;
-  /* padding-right: 5vi; */
+  padding-right: 5vi;
 }
 
 .header__title {
@@ -157,10 +157,13 @@ figure {
 .content__card {
   aspect-ratio: 4/3;
   display: flex;
+  align-self: center;
   flex-direction: column;
   justify-content: center;
   padding-top: 7vw;
   align-items: center;
+  height: 65vw;
+  margin: 0 3vw;
   margin-top: 6.3vw;
   border: 1px solid var(--text-color);
 }
