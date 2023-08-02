@@ -160,6 +160,7 @@ figure {
   justify-content: center;
   padding-top: 7vw;
   align-items: center;
+  margin-top: 6.3vw;
   border: 1px solid var(--text-color);
 }
 
