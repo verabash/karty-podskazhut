@@ -163,7 +163,7 @@ figure {
   padding-top: 7vw;
   align-items: center;
   /* height: 65.5vw; */
-  margin: 0 3vw;
+  /* margin: 0 3vw; */
   margin-top: 6.3vw;
   border: 1px solid var(--text-color);
 }
