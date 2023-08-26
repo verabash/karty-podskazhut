@@ -241,6 +241,7 @@ button:focus-visible {
   color: currentColor;
   cursor: pointer;
   padding: 0;
+  display: inline-block;
 }
 
 .header__theme-button_is-active {
