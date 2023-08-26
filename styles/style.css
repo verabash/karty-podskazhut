@@ -241,7 +241,9 @@ button:focus-visible {
   color: currentColor;
   cursor: pointer;
   padding: 0;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+
 }
 
 .header__theme-button_is-active {
