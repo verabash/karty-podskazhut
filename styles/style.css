@@ -243,7 +243,7 @@ button:focus-visible {
   padding: 0;
   display: flex;
   flex-direction: row;
-
+  gap: 20px;
 }
 
 .header__theme-button_is-active {
