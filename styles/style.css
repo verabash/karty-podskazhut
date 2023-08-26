@@ -225,6 +225,7 @@ button:focus-visible {
 
 .header__theme-toggler {
   display: flex;
+  flex-direction: row;
   list-style: none;
   gap: 20px;
   padding: 0;
