@@ -13,12 +13,11 @@
 }
 
 .page {
-  text-align: center;
   min-inline-size: 360px;
   margin: 0 auto;
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: var(--main-font);
+  font-family: var(--main-font), serif;
 }
 
 p,
@@ -228,7 +227,6 @@ button:focus-visible {
   flex-direction: row;
   list-style: none;
   gap: 20px;
-  padding: 0 5%;
 }
 
 .header__theme-button {
@@ -248,16 +246,6 @@ button:focus-visible {
 
 .header__theme-button_is-active {
   font-weight: 700;
-}
-
-.header__theme-button_type_dark {
-  position: relative;
-  left: 45px;
-}
-
-.header__theme-button_type_light {
-  position: relative;
-  right: -49px;
 }
 
 .header__theme-button_type_light::after {
@@ -301,6 +289,8 @@ button:focus-visible {
   color: var(--text-color);
   padding: 2.5%;
   margin-block-start: 10%;
+  text-align: center;
+
 }
 
 .footer__copyright {
